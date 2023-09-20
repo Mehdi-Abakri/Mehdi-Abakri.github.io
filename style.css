@@ -1,1 +1,57 @@
+:root {
+    --police-site: font-family: 'Roboto', sans-serif;
+    --h1-color: #fcd088;
+    --p-color: #333;
+}
 
+body {
+    font-family: var(--police-site);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
+p {
+    color: var(--p-color)
+}
+
+h1 {
+    color: var(--h1-color);
+    font-size: 40px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    padding: 40px;
+}
+
+#left-a-propos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#right-a-propos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/* 
+{
+
+}
+*/
