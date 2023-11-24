@@ -29,6 +29,16 @@ header {
     padding: 40px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu__item {
+    display: flex;
+    justify-content : space-evenly;
+}
+
 #left-a-propos {
     display: flex;
     flex-direction: column;
@@ -49,9 +59,3 @@ header {
     justify-content: center;
     margin-top: 80px;
 }
-
-/* 
-{
-
-}
-*/
