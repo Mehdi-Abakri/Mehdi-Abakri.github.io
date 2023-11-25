@@ -1,10 +1,12 @@
 :root {
     --police-site: font-family: 'Roboto', sans-serif;
-    --h1-color: #fcd088;
+    --vertCyan: #58e0c3;
     --p-color: #333;
+    --background: #0a192f;
 }
 
 body {
+    background-color: var(--background);
     font-family: var(--police-site);
 }
 
@@ -25,19 +27,34 @@ h1 {
 }
 
 header {
-    background-color: #333;
     padding: 40px;
+}
+
+li a{
+    color: var(--vertCyan);
+    font-weight: 100;
+    font-size: 14px;
 }
 
 .menu {
     display: flex;
-    justify-content: space-evenly;
 }
 
 .menu__item {
     display: flex;
-    justify-content : space-evenly;
+    justify-content: end;
+    width: 100%;
+    margin: auto;
+    gap: 1em;
 }
+
+.menu__item-list {
+    font-weight: 100;
+    list-style: none;
+}
+
+
+
 
 #left-a-propos {
     display: flex;
